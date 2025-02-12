@@ -1,0 +1,31 @@
+.login{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgb(137, 246, 137);
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+.login h2{
+    margin-bottom: 30px;
+}
+.login h4{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.login form input{
+    margin-top: 20px;
+}
+.login button{
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+.sidebar{
+    background-color: #fff;
+    height: 100vh;
+    box-shadow: 0px 0px 10px rgb(117, 248, 117);
+}
+.card{
+    padding: 40px;
+    box-shadow: 0px 0px 10px rgb(101, 235, 101);
+}
