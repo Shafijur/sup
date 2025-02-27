@@ -758,7 +758,7 @@ span.days2 {
     border-radius: 10px;
     border: 2px solid #20B526;
     padding: 10px 20px;
-    margin-right: -50px;
+    margin-right: 0px;
 }
 
 .newslatter1 img {
@@ -783,8 +783,8 @@ span.days2 {
     border-radius: 10px;
     border: 2px solid #20B526;
     padding: 10px 20px;
-    margin-left: 43px;
-    margin-right: -90px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .newslatter2 h3 {
     font-size: 20px;
@@ -801,8 +801,8 @@ span.days2 {
     border-radius: 10px;
     border: 2px solid #20B526;
     padding: 10px 20px;
-    margin-right: -25px;
-    margin-left: 84px;
+    margin-right: 0px;
+    margin-left: 0px;
     padding-bottom: 7px;
 }
 
@@ -1364,7 +1364,7 @@ a.page-link {
 /* ending checkout */
 
 
-@media(max-width: 1199.99px) {
+@media(max-width: 1200px) {
     .header_top_color div a img {
         height: 26px;
     }
@@ -1570,7 +1570,7 @@ a.page-link {
     }
     .footer {
         padding-top: 80px;
-        width: 120%;
+        width: 100%;
     }
     .owl-dots button {
         width: 10px;
@@ -1618,7 +1618,7 @@ a.page-link {
         top: 345px;
     }
     .trusted {
-        margin: -52px;
+        margin: 0px;
     }
     .content_item {
         margin-left: 56px;
@@ -1626,6 +1626,7 @@ a.page-link {
     .trusted_img_pata img {
         height: 100%;
     }
+    
 }
 
 
@@ -1640,7 +1641,7 @@ a.page-link {
 
 @media(max-width: 767px) {
     .header_top_color div a img {
-        height: 26px;
+        height: 21px;
     }
  
     .slider_content h6 {
@@ -1677,7 +1678,7 @@ a.page-link {
         padding-bottom: 145px;
     }
     .feature_heading h2 {
-        font-size: 23px;
+        font-size: 17px;
         
     }
     .feature_heading a {
@@ -1685,7 +1686,7 @@ a.page-link {
         font-size: 12px;
     }
     .shop_cat_heading h2 {
-        font-size: 23px;
+        font-size: 18px;
     }
     .shop_cat_heading a {
         margin-top: 5px;
@@ -1693,32 +1694,64 @@ a.page-link {
     }
         
     .owl-carousel-item h3 {
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 700;
     }
-
+    .owl-carousel-item h4 {
+        font-size: 11px;
+    }
+    .feature_product_content h4 {
+        font-size: 11px;
+    }
+    .feature_product_content h5 {
+        font-size: 13px;
+    }
+    .feature_discount h4 {
+        width: 103px;
+        height: 33px;
+        font-size: 13px;
+        left: 13px;
+        bottom: -279px;
+    }
+    .feature_product-icon i {
+        margin-left: -38px;
+    }
     .owl-carousel-item {
         height: 100%;
         padding: 20px 10px;
     }
-    
+    .feature_icon i {
+        padding: 6px;
+        font-size: 15px;
+        margin-right: -18px;
+    }
     .content_item h3 {
-        font-size: 23px;
+        font-size: 20px;
     }
 
     .content_item h4 {
-        font-size: 16px;
+        font-size: 14px;
     }
-
-    .content_item p {
+    .content_item a {
         font-size: 13px;
+    }
+    .content_item p {
+        font-size: 11px;
         }
     .all_sele_item h2 {
-        font-size: 22px;
+        font-size: 17px;
+    }
+    .all_sele_item_content h3 {
+        font-size: 11px;
     }
     .all_sele_last_item_content h2 {
         font-size: 20px;
     }
+    .all_sele_item_content h4 {
+        font-size: 13px;
+    }
+    
+    
     .all_sele_last_item_content h6 {
         font-size: 15px;
         margin-top: 76px;
@@ -1726,7 +1759,10 @@ a.page-link {
     .all_sele_last_item_content a {
         padding: 6px 23px;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 11px;
+    }
+    .all_sele_item_list {
+        padding: 6px 0px;
     }
     .heading h3 {
         font-size: 27px;
@@ -1736,16 +1772,20 @@ a.page-link {
     }
     .card-body span {
         margin-right: 0px;
-        font-size: 12px;
+        font-size: 11px;
     }
     .card-body p {
-        font-size: 12px;
+        font-size: 11px;
+    }
+    .card_date {
+        bottom: 240px;
+        left: 3px;
     }
     .card_date h2 {
-        font-size: 17px;
+        font-size: 14px;
     }
     .card_date p {
-        font-size: 13px;
+        font-size: 11px;
     }
     .card_date {
         padding: 0px 12px;
@@ -1760,7 +1800,7 @@ a.page-link {
         font-size: 16px;
     }
     .test_heading h2 {
-        font-size: 26px;
+        font-size: 21px;
     }
     
     .testi_slaider p {
@@ -1796,34 +1836,40 @@ a.page-link {
         padding: 35px 0px;
     }
     .newslatter1 h3 {
-        font-size: 17px;
+        font-size: 14px;
     }
     .newslatter3 h3 {
-        font-size: 17px;
+        font-size: 14px;
     }
     .newslatter2 h3 {
-        font-size: 17px;
+        font-size: 14px;
     }
     .newslatter1 p {
         font-size: 12px;
     }
     .newslatter2 h2 {
-        font-size: 21px;
+        font-size: 11px;
+    }
+    .subsc .sub_btn {
+        font-size: 12px;
+    }
+    .subsc input {
+        font-size: 12px;
     }
     .footer1 p {
-        font-size: 12px;
+        font-size: 11px;
     }
     .footer2 ul li a {
         font-size: 12px;
     }
     .footer1 img {
-        height: 19px;
+        height: 15px;
     }
     .footer2 h3 {
-        font-size: 12px;
+        font-size: 11px;
     }
     .footer5 img {
-        width: 71px;
+        width: 65px;
     }
     .footer1 ul li {
         margin-right: 10px;
@@ -1844,7 +1890,7 @@ a.page-link {
     }
     .footer {
         padding-top: 80px;
-        width: 120%;
+        width: 100%;
     }
     .owl-dots button {
         width: 10px;
@@ -1857,7 +1903,8 @@ a.page-link {
         font-size: 12px;
     }
     span.days2 {
-        font-size: 13px !important;
+        font-size: 15px !important;
+        margin-right: 26px;
     }
     span.colon2 {
         color: #fff !important;
@@ -1865,6 +1912,9 @@ a.page-link {
     }
     .offer2_content ul li span {
         font-size: 25px;
+    }
+    .offer2_content h2 {
+        font-size: 28px;
     }
     .counter_item h3 {
         font-size: 26px;
@@ -1877,24 +1927,27 @@ a.page-link {
         margin-bottom: 10px;
     }
     .counter_item p {
-        font-size: 13px;
+        font-size: 10px;
     }
     .counter {
         padding: 33px 0px;
     }
     .trusted_img img {
-        height: 207px;
-        width: 246px;
+        height: 180px;
+        width: 125px;
     }
     .trusted_img2 img {
-        height: 216px;
-        width: 234px;
+        height: 193px;
+        width: 195px;
     }
     .trusted_img_pata {
         top: 172px;
     }
     .trusted {
-        margin: -52px;
+        margin: 0px;
+    }
+    .offer1_content h2 {
+        font-size: 31px;
     }
     .content_item {
         margin-left: 56px;
